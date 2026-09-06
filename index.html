@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Room — Репетиционная точка в Чите</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header-nav" id="navbar">
+        <div class="container">
+            <a href="#" class="logo">Music <span>Room</span></a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Меню">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero" class="active">Главная</a></li>
+                <li><a href="#gear">Аппаратура</a></li>
+                <li><a href="#about">О точке</a></li>
+                <li><a href="#pricing">Стоимость</a></li>
+                <li><a href="#booking">Контакты</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <h1>Music Room</h1>
+                <div class="slogan">Звук, который дышит</div>
+                <p class="hero-desc">
+                    Репетиционная точка с характером. Полный комплект оборудования, 
+                    ламповый звук и атмосфера для настоящей музыки.
+                </p>
+                <p style="margin-top: 0.8rem; font-weight: 300; color: var(--color-text-muted);">
+                    ▸ 4 комнаты ▸ Круглосуточно ▸ Звукоизоляция
+                </p>
+                <div style="margin-top: 2rem;">
+                    <a href="#booking" class="btn">Забронировать</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-inner" aria-label="Фото репетиционной точки с барабанами и усилителями"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gear" class="section-light">
+        <div class="container">
+            <h2>Аппаратура</h2>
+            <div class="grid-3col">
+                <div class="card gear-item">
+                    <h3>Усиление</h3>
+                    <p>Marshall JCM 800, Fender Twin Reverb, Ampeg SVT, Mesa Boogie Dual Rectifier — для гитар и баса.</p>
+                </div>
+                <div class="card gear-item">
+                    <h3>Барабаны</h3>
+                    <p>DW Collector's Series, Yamaha Recording Custom, Zildjian K Custom, Meinl Byzance — полный сет.</p>
+                </div>
+                <div class="card gear-item">
+                    <h3>Микрофоны &amp; PA</h3>
+                    <p>Shure SM7B, AKG C414, Sennheiser MD421, мониторы Yamaha HS8, линейный массив.</p>
+                </div>
+            </div>
+
+            <div class="grid-2col" style="margin-top: 2.5rem;">
+                <div class="photo-block photo-1" style="min-height: 220px;" aria-label="Фото гитарного усилителя"></div>
+                <div class="photo-block photo-2" style="min-height: 220px;" aria-label="Фото барабанной установки"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section-alt">
+        <div class="container grid-2col">
+            <div>
+                <h2>О точке</h2>
+                <p style="font-size: 1.1rem; margin-bottom: 1.2rem;">
+                    Music Room — это уникальное место, где создается звук и музыка.
+                </p>
+                <p>
+                    Комнаты с разной акустикой, профессиональная аппаратура, музыкальная атмосфера. 
+                    Работаем с 2012 года, у нас репетируют лучшие группы города.
+                </p>
+                <ul style="list-style: none; margin-top: 1.5rem;">
+                    <li style="padding: 0.3rem 0;">Отличная аппаратура на точках</li>
+                    <li style="padding: 0.3rem 0;">Бесплатная вода</li>
+                    <li style="padding: 0.3rem 0;">Возможность аренды аппаратуры</li>
+                </ul>
+            </div>
+            <div class="photo-block photo-3" style="min-height: 260px;" aria-label="Фото интерьера репетиционной точки"></div>
+        </div>
+    </section>
+
+    <section id="pricing" class="section-light pricing-section">
+        <div class="container">
+            <h2>Стоимость репетиций</h2>
+
+            <h3 style="font-size: 1.4rem; margin-bottom: 1rem; font-weight: 400;">Общая стоимость</h3>
+            <table class="pricing-table">
+                <thead>
+                    <tr>
+                        <th rowspan="2">Количество репетирующих</th>
+                        <th colspan="4">Стоимость 1 репетиции</th>
+                    </tr>
+                    <tr>
+                        <th>1 час</th>
+                        <th>2 часа</th>
+                        <th>3 часа</th>
+                        <th>4 часа</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="row-header">
+                        <td colspan="5">Базовое время</td>
+                    </tr>
+                    <tr>
+                        <td>1 человек</td>
+                        <td>150</td>
+                        <td>300</td>
+                        <td>425</td>
+                        <td>550</td>
+                    </tr>
+                    <tr>
+                        <td>2 человека</td>
+                        <td>200</td>
+                        <td>400</td>
+                        <td>575</td>
+                        <td>725</td>
+                    </tr>
+                    <tr>
+                        <td>3 человека</td>
+                        <td>250</td>
+                        <td>500</td>
+                        <td>725</td>
+                        <td>950</td>
+                    </tr>
+                    <tr>
+                        <td>4 и более человека</td>
+                        <td>300</td>
+                        <td>600</td>
+                        <td>875</td>
+                        <td>1150</td>
+                    </tr>
+                    <tr class="row-header">
+                        <td colspan="5">Опции (оплачиваются дополнительно к базовому времени)</td>
+                    </tr>
+                    <tr class="option-row">
+                        <td>Гитара (электро/бас) — цена за 1 инструмент</td>
+                        <td>25</td>
+                        <td>50</td>
+                        <td>75</td>
+                        <td>100</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="https://docs.google.com/spreadsheets/d/1jhU6AGVKvEBeMLlT6Rj7aK1SsA4VwAznv80m5qjY6FI/edit?pli=1&gid=0#gid=0" 
+                   target="_blank" 
+                   class="btn btn-outline" 
+                   style="font-size: 1rem; padding: 12px 32px;">
+                   Смотреть расписание
+                </a>
+                <p class="text-muted" style="margin-top: 0.5rem; font-size: 0.85rem;">
+                    Актуальное расписание в Google Sheets
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="section-alt" style="border-bottom: none;">
+        <div class="container">
+            <h2>Контакты</h2>
+            <div class="contacts-grid">
+                <div class="card contact-info">
+                    <p style="font-family: var(--font-heading); font-size: 1.8rem; color: var(--color-text); margin-bottom: 0.5rem;">
+                        Music Room
+                    </p>
+                    <p><span class="accent">Адрес:</span> г. Чита, ул. Смоленская, 39. </p>
+                    <p><span class="accent">Место:</span> 4 этаж, кабинет 11; 1 этаж, кабинет 13 </p>
+                    <p><span class="accent">Телефон:</span> +7 (914) 461-04-30</p>
+                    
+                    <div class="socials" style="margin-top: 1.5rem;">
+                        <a href="https://vk.ru/club228949750" aria-label="ВКонтакте">VK</a>   
+                    </div>
+                    <p class="text-muted" style="margin-top: 1.8rem; font-size: 0.9rem;">
+                        Работаем ежедневно с 10:00 до 02:00
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3 style="font-family: var(--font-heading); font-weight: 400; font-size: 1.6rem; color: var(--color-text); border-bottom: 2px solid var(--color-accent); display: inline-block; padding-bottom: 4px; margin-bottom: 0.5rem;">
+                        Заявка
+                    </h3>
+                    <form class="booking-form" action="#" method="post">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" id="name" placeholder="Иван" required>
+
+                        <label for="phone">Телефон</label>
+                        <input type="tel" id="phone" placeholder="+7 (___) ___-__-__" required>
+
+                        <label for="date">Дата и время</label>
+                        <input type="text" id="date" placeholder="25.09 20:00">
+
+                        <label for="msg">Комментарий</label>
+                        <textarea id="msg" rows="2" placeholder="Сколько человек, нужен ли барабанщик..."></textarea>
+
+                        <button type="submit" class="btn btn-block">Отправить заявку</button>
+                        <p class="text-muted" style="font-size: 0.8rem; margin-top: 0.5rem; text-align: center;">
+                            Мы свяжемся с вами в течение 15 минут
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        menuToggle.addEventListener('click', function() {
+            navLinks.classList.toggle('open');
+        });
+
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('open');
+            });
+        });
+
+        const sections = document.querySelectorAll('section[id]');
+        const navItems = document.querySelectorAll('.nav-links a');
+
+        function updateActiveNav() {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                if (window.scrollY >= sectionTop) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navItems.forEach(item => {
+                item.classList.remove('active');
+                if (item.getAttribute('href') === '#' + current) {
+                    item.classList.add('active');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', updateActiveNav);
+
+        const navbar = document.getElementById('navbar');
+
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 20) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+
+</body>
+</html>
